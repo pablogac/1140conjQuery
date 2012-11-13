@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="CSS/1140.css" rel="stylesheet" />
+    <link href="CSS/vader/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" />
+    <script src="js/jquery-1.8.2.js"></script>
+    <script src="js/jquery-ui-1.9.1.custom.min.js"></script>
+    <script src="js/script1.js"></script>
+</head>
+<body id="cajaColor">
+    <br /><br /><br /><br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="threecol">
+                <input id="Button1" type="button" value="deshabilita" onclick="deshabilita(1);"/>
+                <input id="Button2" type="button" value="añade tab" onclick="ponUnTabMas();"/>
+                <input id="Button3" type="button" value="borra tab" onclick="quitaUnTabMas();"/>
+
+
+                <input id="Button4" type="button" value="dialogo" onclick="muestraDialogo();"/>
+                <div id="miDialogo" title="titulo">
+                </div>
+
+            </div>
+
+             
+            <div class="fourcol">
+                <div id="miDeslizador"></div>
+                <p> valor slider: <span id="deslizador"></span></p>
+                
+
+
+
+            </div>
+            <div class="fivecol last">
+                <div id="acordeon">
+                    <h2>
+                        <a href="#"> titulo 1</a>
+                    </h2>
+                    <div> texto del primer parrafo</div>
+                    <h2>
+                        <a href="#"> titulo 2</a>
+                    </h2>
+                    <div> texto del segundo parrafo</div>
+                    <h2>
+                        <a href="#"> titulo 3</a>
+                    </h2>
+                    <div> texto del tercer parrafo</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <br /><br /><br /><br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="threecol">
+                <div id="rojo">
+                   
+                </div>
+                 <p> rojo: <span id="d1"></span></p>
+                <br />
+               <div id="azul">
+                  
+               </div>
+                 <p> verde: <span id="d2"></span></p>
+                <br />
+                <div id="verde">
+                   
+                </div>
+                 <p> azul: <span id="d3"></span></p>
+                <br />
+
+            </div>
+            <div class="fourcol">
+             <div id="progreso"></div>
+
+                
+            </div>
+            <div class="fivecol last">
+               <label for="fecha">introduce fecha</label>
+                <input id="fecha" type="text" />
+            </div>
+        </div>
+    </div>
+
+            <br /><br /><br /><br /><br />
+    <div class="container">
+        <div class="row">
+
+
+
+
+            <div class="threecol">
+             <label for="autoCompleta">selecciona un lenguaje de programacion:</label>
+                <input id="autoCompleta">
+                <br />
+                <label for="autoCompleta2">Busca la letra inicial</label>
+                <input id="autoCompleta2">
+
+            </div>
+            <div class="fourcol">
+              <div id="radio">
+                  <input id="radio1" type="radio" name="radio" /><label for="radio1">opcion 1</label>
+                  <input id="radio2" type="radio" name="radio" /><label for="radio2">opcion 2</label>
+                  <input id="radio3" type="radio" name="radio" /><label for="radio3">opcion 3</label>
+                  
+              </div>
+
+                <input id="Button5" type="button" value="botonPrueba"/>
+                <input id="Checkbox1" type="checkbox" />
+            </div>
+            <div class="fivecol last">
+              
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
